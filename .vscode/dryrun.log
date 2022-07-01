@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/matheush/Documentos/Trabalho/JOGO/ojogo'
+echo bin/output already exist
+gcc -Wall -Iinclude src/*.c -o bin/output/labirinto -Llibs -lncurses
+make: Leaving directory '/home/matheush/Documentos/Trabalho/JOGO/ojogo'
+ 
